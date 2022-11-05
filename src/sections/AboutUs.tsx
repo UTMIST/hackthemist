@@ -2,11 +2,9 @@ import * as React from 'react';
 import {Container, Grid, GridItem, Heading, Stack, Box, Image, Text} from '@chakra-ui/react'
 import audience from '../img/audience.jpg';
 import speaker from '../img/speaker.jpg';
-import VerticalCenter from '../components/VerticalCenter'
 
-const Header = () => (
-    <Container maxW={'3xl'}>
-
+const Component = () => (
+    <Container id="about-us" maxW={'3xl'}>
         <Stack
             as={Box}
             spacing={{base: 8, md: 14}}
@@ -14,15 +12,13 @@ const Header = () => (
             <Heading>About Us</Heading>
             <Grid templateColumns='repeat(2, 1fr)' gap={6}>
                 <GridItem w='100%'>
-                    <VerticalCenter>
-                        <Text>
-                            Hack the MIST is the first hackathon at the University of Toronto
-                            that <b>focuses on developing an end to end solution on real world
-                            problems with machine learning</b>. The solutions from this hackathon
-                            will be more than coding in a Jupyter notebook, but will instead
-                            be solutions that can be implemented in the real world.
-                        </Text>
-                    </VerticalCenter>
+                    <Text>
+                        Hack the MIST is the first hackathon at the University of Toronto
+                        that <b>focuses on developing an end to end solution on real world
+                        problems with machine learning</b>. The solutions from this hackathon
+                        will be more than coding in a Jupyter notebook, but will instead
+                        be solutions that can be implemented in the real world.
+                    </Text>
                 </GridItem>
 
                 <GridItem w='100%'>
@@ -46,6 +42,6 @@ const Header = () => (
             </Grid>
         </Stack>
     </Container>
-)
+);
 
-export default Header;
+export default Component;

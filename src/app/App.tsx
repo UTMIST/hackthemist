@@ -4,6 +4,7 @@ import theme from '../config/theme';
 import Header from '../sections/Header';
 import AboutUs from '../sections/AboutUs';
 import {useEffect} from 'react';
+import "../style/override.css";
 
 const App = () => {
     useEffect(() => {
