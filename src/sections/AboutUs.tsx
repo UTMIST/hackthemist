@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {Container, Grid, GridItem, Heading, Stack, Box, Image, Text} from '@chakra-ui/react'
-import audience from '../img/audience.jpg';
+import boredPeople from '../img/bored_people.jpeg';
 import speaker from '../img/speaker.jpg';
 
 const Component = () => (
@@ -22,7 +22,7 @@ const Component = () => (
                 </GridItem>
 
                 <GridItem w='100%'>
-                    <Image src={audience}/>
+                    <Image src={boredPeople}/>
                 </GridItem>
 
                 <GridItem w='100%'>
