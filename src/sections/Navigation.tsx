@@ -54,7 +54,7 @@ const Navbar = () => {
                         aria-label={'Toggle Navigation'}
                     />
                 </Flex>
-                <Flex flex={{base: 1}} justify={{base: 'center', md: 'start'}}>
+                <Flex flex={{base: 1}} justify={{base: 'center', md: 'start'}} display={{base: 'none', md: 'flex'}}>
                     <Link
                         href='#'
                         textAlign={useBreakpointValue({base: 'center', md: 'left'})}
