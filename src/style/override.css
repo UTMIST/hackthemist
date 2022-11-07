@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Drop shadow */
+.shadow {
+    box-shadow: 0px 10px 27px 0px rgba(0, 0, 0, 0.34);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Zoom hover */
+.zoom {
+    transition: transform .2s;
+    transform: scale(1);
+}
+
+.zoom:hover {
+    transform: scale(1.01);
+}
+
+/* Hack for vertical alignment */
+.spacer {
+    height: 50%;
+}
+.verticalCenter {
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
