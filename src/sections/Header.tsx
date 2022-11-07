@@ -4,7 +4,7 @@ import {scrollToSection} from "../util/scroll";
 import audience from '../img/audience.jpg';
 
 const Component = () => (
-    <Box style={{width: '100vw', backgroundImage: `url(${audience})`, backgroundSize: 'cover', backgroundPosition: '10px', backgroundAttachment: 'fixed'}}>
+    <Box style={{width: '100vw', backgroundImage: `url(${audience})`, backgroundSize: 'cover', backgroundAttachment: 'fixed'}}>
         <Box background={'rgba(0, 0, 0, 0.5)'}>
             <Container maxW={'3xl'}>
                 <Stack
