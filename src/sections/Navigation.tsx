@@ -127,7 +127,7 @@ const Navbar = () => {
             </Flex>
 
             <Collapse in={isOpen} animateOpacity>
-                <MobileNav/>
+                <MobileNav toggleParent={onToggle}/>
             </Collapse>
         </Box>
     );
@@ -218,20 +218,21 @@ const DesktopSubNav = ({label, href, subLabel}: NavItem) => {
     );
 };
 
-const MobileNav = () => {
+const MobileNav = ({toggleParent}: { toggleParent: any }) => {
     return (
         <Stack
             bg={useColorModeValue('white', 'gray.800')}
             p={4}
             display={{md: 'none'}}>
             {NAV_ITEMS.map((navItem) => (
-                <MobileNavItem key={navItem.label} {...navItem} />
+                <MobileNavItem key={navItem.label} navItem={navItem} toggleParent={toggleParent}/>
             ))}
         </Stack>
     );
 };
 
-const MobileNavItem = ({label, children, href}: NavItem) => {
+const MobileNavItem = ({navItem, toggleParent}: { navItem: NavItem, toggleParent: any }) => {
+    const {label, children, href} = navItem;
     const {isOpen, onToggle} = useDisclosure();
 
     return (
@@ -244,7 +245,8 @@ const MobileNavItem = ({label, children, href}: NavItem) => {
                 align={'center'}
                 _hover={{
                     textDecoration: 'none',
-                }}>
+                }}
+                onClick={toggleParent}>
                 <Text
                     fontWeight={600}
                     color={useColorModeValue('gray.600', 'gray.200')}>
