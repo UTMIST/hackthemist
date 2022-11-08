@@ -7,7 +7,7 @@ import {
 } from '@chakra-ui/icons';
 
 const Component = () => (
-    <Box style={{width: '100vw', backgroundImage: `url(${audience})`, backgroundSize: 'cover', backgroundAttachment: 'fixed'}}>
+    <Box style={{backgroundImage: `url(${audience})`, backgroundSize: 'cover', backgroundAttachment: 'fixed'}}>
         <Box background={'rgba(0, 0, 0, 0.7)'}>
             <Container maxW={'3xl'}>
                 <Stack
