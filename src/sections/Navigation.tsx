@@ -24,21 +24,50 @@ import {
     ChevronDownIcon,
     ChevronRightIcon,
 } from '@chakra-ui/icons';
+import {useEffect, useState} from "react";
 
 const Navbar = () => {
     const {isOpen, onToggle} = useDisclosure();
+    const [navbarDocked, setNavbarDocked] = useState(true);
+
+    const onScroll = () => {
+        // Make navbar transparent when it's at the top.
+        setNavbarDocked(window.scrollY < 10);
+    };
+
+    useEffect(() => {
+        onScroll();
+        window.addEventListener('scroll', onScroll);
+
+        return () => window.removeEventListener('scroll', onScroll);
+    }, []);
+
+    const navbarTransparent = navbarDocked && !isOpen;
+
+    const backgroundColor = navbarTransparent
+        ? 'rgba(0, 0, 0, 0)'
+        : 'white'
+
+    const borderColor = navbarTransparent
+        ? 'rgba(0, 0, 0, 0)'
+        : 'gray.400';
+
+    const textColor = navbarTransparent
+        ? 'rgba(255, 255, 255, 255)'
+        : 'gray.600';
 
     return (
         <Box style={{position: 'fixed', width: '100%', zIndex: 1000}}>
             <Flex
-                bg={useColorModeValue('white', 'gray.800')}
-                color={useColorModeValue('gray.600', 'white')}
+                bg={backgroundColor}
+                color={textColor}
                 minH={'60px'}
                 py={{base: 2}}
                 px={{base: 4}}
                 borderBottom={1}
                 borderStyle={'solid'}
-                borderColor={useColorModeValue('gray.200', 'gray.900')}
+                borderColor={borderColor}
+                style={{transitionDuration: '0.5s'}}
                 align={'center'}>
                 <Flex
                     flex={{base: 1, md: 'auto'}}
@@ -49,7 +78,8 @@ const Navbar = () => {
                         icon={
                             isOpen ? <CloseIcon w={3} h={3}/> : <HamburgerIcon w={5} h={5}/>
                         }
-                        variant={'ghost'}
+                        variant={navbarTransparent ? 'outline' : 'ghost'}
+                        style={navbarTransparent ? {background: 'rgba(0, 0, 0, 0)'} : {}}
                         aria-label={'Toggle Navigation'}
                     />
                 </Flex>
@@ -58,12 +88,12 @@ const Navbar = () => {
                         href='#'
                         textAlign={useBreakpointValue({base: 'center', md: 'left'})}
                         fontFamily={'heading'}
-                        color={useColorModeValue('gray.800', 'white')}>
+                        color={textColor}>
                         Hack the MIST
                     </Link>
 
                     <Flex display={{base: 'none', md: 'flex'}} ml={10}>
-                        <DesktopNav/>
+                        <DesktopNav navbarDocked={navbarTransparent}/>
                     </Flex>
                 </Flex>
 
@@ -103,9 +133,13 @@ const Navbar = () => {
     );
 }
 
-const DesktopNav = () => {
-    const linkColor = useColorModeValue('gray.600', 'gray.200');
-    const linkHoverColor = useColorModeValue('gray.800', 'white');
+const DesktopNav = ({navbarDocked}: { navbarDocked: boolean }) => {
+    const linkColor = navbarDocked
+        ? 'white'
+        : 'gray.600';
+    const linkHoverColor = navbarDocked
+        ? 'white'
+        : 'gray.800';
     const popoverContentBgColor = useColorModeValue('white', 'gray.800');
 
     return (
