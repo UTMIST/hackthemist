@@ -14,7 +14,8 @@ const Component = () => (
                     as={Box}
                     textAlign={'center'}
                     spacing={{base: 8, md: 14}}
-                    py={{base: 20, md: 36}}>
+                    py={{base: 20, md: 36}}
+                    style={{paddingTop: '200px', paddingBottom: '200px'}}>
                     <Heading
                         color='white'
                         fontWeight={600}
@@ -27,6 +28,9 @@ const Component = () => (
                         style={{marginTop: '0'}}>
                         Spring 2022 @ University of Toronto | Presented by UTMIST
                     </Heading>
+                    <Text color={'gray.200'}>
+                        "we clear the mist around machine learning 🥵💦🥵💦"
+                    </Text>
                     <Text color={'white'}>
                         Join our mailing list to be notified when our applications open!
                     </Text>
