@@ -6,6 +6,7 @@ import AboutUs from '../sections/AboutUs';
 import Navigation from '../sections/Navigation';
 import {useEffect} from 'react';
 import "../style/override.css";
+import Footer from '../sections/Footer';
 
 const App = () => {
     useEffect(() => {
@@ -17,6 +18,7 @@ const App = () => {
             <Navigation/>
             <Header/>
             <AboutUs/>
+            <Footer/>
         </ChakraProvider>
     );
 };
