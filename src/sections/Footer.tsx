@@ -3,6 +3,7 @@ import {
     Box,
     Container,
     Heading,
+    Link,
     Flex,
     Text,
     useColorModeValue,
@@ -19,7 +20,9 @@ const Footer = () => {
             <Container maxW={'3xl'} py={10}>
                 <Flex>
                     <Center>
-                        <Heading fontSize={25}>Hack the MIST</Heading>
+                        <Link href="#" _hover={{ color: 'blue.600' }} transition={'0.25s'}>
+                            <Heading fontSize={25}>Hack the MIST</Heading>
+                        </Link>
                     </Center>
                     <Spacer />
                     <Center>
