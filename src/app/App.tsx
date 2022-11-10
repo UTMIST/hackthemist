@@ -5,6 +5,8 @@ import Header from '../sections/Header';
 import AboutUs from '../sections/AboutUs';
 import Navigation from '../sections/Navigation';
 import "../style/override.css";
+import Footer from '../sections/Footer';
+import Contact from '../sections/Contact';
 
 const App = () => {
     return (
@@ -12,6 +14,8 @@ const App = () => {
             <Navigation/>
             <Header/>
             <AboutUs/>
+            <Contact/>
+            <Footer/>
         </ChakraProvider>
     );
 };
