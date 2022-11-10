@@ -15,8 +15,8 @@ const App = () => {
             <Navigation/>
             <Header/>
             <AboutUs/>
-            <FAQ/>
             <Contact/>
+            <FAQ/>
             <Footer/>
         </ChakraProvider>
     );
