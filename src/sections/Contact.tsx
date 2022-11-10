@@ -53,17 +53,18 @@ const Contact = () => {
             <Stack pb={20} gap={4}>
                 <Heading>Contact Us</Heading>
                 <Text as={'b'}>Feel free to reach out via email or visit our social media!</Text>
-                <Flex gap={6}>
+                <Stack direction={['column', 'row']} gap={{ base: 4, sm: 0 }}>
                     <Button
                         colorScheme={'blue'}
                         bg={'blue.600'}
                         rounded={'full'}
                         px={6}
+                        mr={5}
                         _hover={{
                             bg: 'blue.500',
                         }}
-                        onClick={() => window.open('https://eepurl.com/dGMddD', '_blank')}>
-
+                        onClick={() => window.open('https://eepurl.com/dGMddD', '_blank')}
+                    >
                         <Icon
                             as={EmailIcon}
                             w={6}
@@ -72,20 +73,24 @@ const Contact = () => {
                         />
                         Join our mailing list
                     </Button>
-                    {
-                        socialData.map(social => (
-                            <Center>
-                                <Link
-                                    aria-label={social.aria}
-                                    href={social.href}
-                                    fontSize={20}
-                                    isExternal>
-                                    {social.icon}
-                                </Link>
-                            </Center>
-                        ))
-                    }
-                </Flex>
+                    <Center>
+                        <Flex gap={6}>
+                            {
+                                socialData.map(social => (
+                                    <Center>
+                                        <Link
+                                            aria-label={social.aria}
+                                            href={social.href}
+                                            fontSize={20}
+                                            isExternal>
+                                            {social.icon}
+                                        </Link>
+                                    </Center>
+                                ))
+                            }
+                        </Flex>
+                    </Center>
+                </Stack>
             </Stack>
         </Container>
     );
