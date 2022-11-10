@@ -303,6 +303,10 @@ const NAV_ITEMS: Array<NavItem> = [
         label: 'Contact Us',
         href: '#contact-us'
     },
+    {
+        label: 'FAQ',
+        href: '#faq'
+    }
 ];
 
 export default Navbar;

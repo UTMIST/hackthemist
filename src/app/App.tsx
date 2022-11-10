@@ -3,6 +3,7 @@ import {ChakraProvider} from '@chakra-ui/react';
 import theme from '../config/theme';
 import Header from '../sections/Header';
 import AboutUs from '../sections/AboutUs';
+import FAQ from  '../sections/FAQ';
 import Navigation from '../sections/Navigation';
 import "../style/override.css";
 import Footer from '../sections/Footer';
@@ -14,6 +15,7 @@ const App = () => {
             <Navigation/>
             <Header/>
             <AboutUs/>
+            <FAQ/>
             <Contact/>
             <Footer/>
         </ChakraProvider>
