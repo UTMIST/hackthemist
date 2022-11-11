@@ -7,6 +7,7 @@ import Navigation from '../sections/Navigation';
 import "../style/override.css";
 import Footer from '../sections/Footer';
 import Contact from '../sections/Contact';
+import Sponsors from '../sections/Sponsors';
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
             <Navigation/>
             <Header/>
             <AboutUs/>
+            <Sponsors/>
             <Contact/>
             <Footer/>
         </ChakraProvider>
