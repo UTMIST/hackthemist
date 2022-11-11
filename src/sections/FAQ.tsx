@@ -22,7 +22,7 @@ const Component = () => (
                     </AccordionButton>
                     </h2>
                     <AccordionPanel pb={4}>
-                    TBD
+                    A hackathon is a social event where developers, designers, and any solution-solvers collaborate to identify and solve a problem.
                     </AccordionPanel>
                 </AccordionItem>
 
@@ -36,7 +36,7 @@ const Component = () => (
                     </AccordionButton>
                     </h2>
                     <AccordionPanel pb={4}>
-                    High school and undergraduate students with any coding background.
+                    High school and undergraduate students with any coding/designing background.
                     </AccordionPanel>
                 </AccordionItem>
 
@@ -50,7 +50,7 @@ const Component = () => (
                     </AccordionButton>
                     </h2>
                     <AccordionPanel pb={4}>
-                    You can join as an individual and we will assign you a team based on your experience level, and preferences. 
+                    No worries! You can submit your application as an individual and you can find teammates in the #team-formation channel on our Hack the MIST Discord later. You will get to join Discord after being accepted.
                     </AccordionPanel>
                 </AccordionItem>
 
@@ -64,7 +64,7 @@ const Component = () => (
                     </AccordionButton>
                     </h2>
                     <AccordionPanel pb={4}>
-                    TBD
+                    Each individual has to submit their own application. We will share a form after the hackathon starts, and you can declare your team then.
                     </AccordionPanel>
                 </AccordionItem>
 
@@ -78,7 +78,7 @@ const Component = () => (
                     </AccordionButton>
                     </h2>
                     <AccordionPanel pb={4}>
-                    TBD
+                    This hackathon is open to people with all Machine Learning backgrounds. If you are a beginner in machine learning and looking for a platform to build your first machine learning project this can be a great opportunity for you. 
                     </AccordionPanel>
                 </AccordionItem>
 
@@ -92,7 +92,7 @@ const Component = () => (
                     </AccordionButton>
                     </h2>
                     <AccordionPanel pb={4}>
-                    TBD
+                    It's completely free! Just bring your laptop and your passion.
                     </AccordionPanel>
                 </AccordionItem>
 
@@ -114,27 +114,13 @@ const Component = () => (
                     <h2>
                     <AccordionButton>
                         <Box flex='1' textAlign='left'>
-                        <b>When can I expect to hear back?</b>
-                        </Box>
-                        <AccordionIcon />
-                    </AccordionButton>
-                    </h2>
-                    <AccordionPanel pb={4}>
-                    TBD
-                    </AccordionPanel>
-                </AccordionItem>
-
-                <AccordionItem>
-                    <h2>
-                    <AccordionButton>
-                        <Box flex='1' textAlign='left'>
                         <b>What is the minimum and maximum size of a team?</b>
                         </Box>
                         <AccordionIcon />
                     </AccordionButton>
                     </h2>
                     <AccordionPanel pb={4}>
-                    TBD
+                    You need to have at least 2 members in your team and at most 4 members. If you lack members, you can find teammates in the #team-formation channel on our Hack the MIST Discord later. You will get to join Discord after being accepted.
                     </AccordionPanel>
                 </AccordionItem>
 
@@ -148,7 +134,7 @@ const Component = () => (
                     </AccordionButton>
                     </h2>
                     <AccordionPanel pb={4}>
-                    TBD
+                    Yes, this hackathon will be hosted completely in-person at the University of Toronto.
                     </AccordionPanel>
                 </AccordionItem>
 
@@ -162,7 +148,7 @@ const Component = () => (
                     </AccordionButton>
                     </h2>
                     <AccordionPanel pb={4}>
-                    TBD
+                    Yes! They will be announced closer to Hack the MIST date.
                     </AccordionPanel>
                 </AccordionItem>
             </Accordion>
