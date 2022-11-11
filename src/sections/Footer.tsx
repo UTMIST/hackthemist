@@ -8,7 +8,8 @@ import {
     Text,
     useColorModeValue,
     Spacer,
-    Center
+    Center,
+    VStack
 } from '@chakra-ui/react'
 
 const Footer = () => {
@@ -19,12 +20,25 @@ const Footer = () => {
         >
             <Container maxW={'3xl'} py={10}>
                 <Flex>
-                    <Center>
+                    <VStack alignItems={'left'} pb={{ base: 10, sm: 0 }}>
                         <Link href="#" _hover={{ color: 'blue.600' }} transition={'0.25s'}>
                             <Heading fontSize={25}>Hack the MIST</Heading>
                         </Link>
-                    </Center>
+                        <Text>
+                            Presented by the&nbsp;
+                            <Link
+                                textDecor={'underline'}
+                                href="https://utmist.gitlab.io"
+                                _hover={{ color: 'blue.600' }}
+                                transition={'0.25s'}
+                            >
+                                University of Toronto Machine Intelligence Student Team
+                            </Link>
+                        </Text>
+                    </VStack>
+                    
                     <Spacer />
+
                     <Center>
                         <Text>© 2022 UTMIST</Text>
                     </Center>
