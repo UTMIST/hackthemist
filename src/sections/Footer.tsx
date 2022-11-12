@@ -29,6 +29,7 @@ const Footer = () => {
                             <Link
                                 textDecor={'underline'}
                                 href="https://utmist.gitlab.io"
+                                isExternal
                                 _hover={{ color: 'blue.600' }}
                                 transition={'0.25s'}
                             >
