@@ -4,8 +4,7 @@ import {
     Stack,
     Heading,
     Text,
-    Link,
-    Highlight
+    Link
 } from '@chakra-ui/react';
 
 const Sponsors = () => {
