@@ -36,6 +36,15 @@ const Footer = () => {
                                 University of Toronto Machine Intelligence Student Team
                             </Link>
                         </Text>
+                        <Link
+                            href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
+                            textDecor={'underline'}
+                            isExternal
+                            _hover={{ color: 'blue.600' }}
+                            transition={'0.25s'}
+                        >
+                            MLH Code of Conduct
+                        </Link>
                     </VStack>
                     
                     <Spacer />
