@@ -8,7 +8,7 @@ const Component = () => (
         <Stack
             as={Box}
             spacing={{base: 8, md: 14}}
-            py={{base: 20, md: 36}}>
+            py={{base: 20, md: 24}}>
             <Heading>About Us</Heading>
             <Grid templateColumns={{
                 base: 'repeat(1, 1fr)',
