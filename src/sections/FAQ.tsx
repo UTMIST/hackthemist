@@ -114,6 +114,20 @@ const Component = () => (
                     <h2>
                     <AccordionButton>
                         <Box flex='1' textAlign='left'>
+                        <b>How can I participate in Hack the MIST</b>
+                        </Box>
+                        <AccordionIcon />
+                    </AccordionButton>
+                    </h2>
+                    <AccordionPanel pb={4}>
+                    The registration form will be out early next year. While applying, just by showing enthusiasm for machine learning will get you a spot in Hack the MIST! But note that we are accepting registration on a first come first serve basis and the spots are limited. So make sure to secure yours before they run out!  
+                    </AccordionPanel>
+                </AccordionItem>
+
+                <AccordionItem>
+                    <h2>
+                    <AccordionButton>
+                        <Box flex='1' textAlign='left'>
                         <b>What is the minimum and maximum size of a team?</b>
                         </Box>
                         <AccordionIcon />
