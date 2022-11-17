@@ -72,7 +72,7 @@ const Component = () => (
                     <h2>
                     <AccordionButton>
                         <Box flex='1' textAlign='left'>
-                        <b>If I have no experience, can I still come?</b>
+                        <b>What if I have no experience? Can I still come?</b>
                         </Box>
                         <AccordionIcon />
                     </AccordionButton>
@@ -156,7 +156,7 @@ const Component = () => (
                     <h2>
                     <AccordionButton>
                         <Box flex='1' textAlign='left'>
-                        <b>Do we need to have any hardware/software to participate?</b>
+                        <b>Will there be prizes for the winners?</b>
                         </Box>
                         <AccordionIcon />
                     </AccordionButton>
