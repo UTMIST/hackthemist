@@ -4,13 +4,17 @@ import {
     Stack,
     Heading,
     Text,
-    Link
+    Link,
+    Box
 } from '@chakra-ui/react';
 
 const Sponsors = () => {
     return (
         <Container id="sponsors" maxW={'3xl'}>
-            <Stack pb={20} gap={4}>
+            <Stack
+                as={Box}
+                spacing={{base: 8, md: 14}}
+                pt={{base: 20, md: 24}}>
                 <Heading>Sponsors</Heading>
                 <Text>Interested in sponsoring us? Get in touch with our team at&nbsp;
                     <Link textDecor={'underline'} href="mailto:utmist.outreach@gmail.com">

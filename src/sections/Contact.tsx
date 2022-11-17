@@ -8,7 +8,8 @@ import {
     Button,
     Icon,
     Link,
-    Center
+    Center,
+    Box
 } from '@chakra-ui/react';
 import { EmailIcon } from '@chakra-ui/icons';
 import {
@@ -50,7 +51,10 @@ const Contact = () => {
 
     return (
         <Container id="contact-us" maxW={'3xl'}>
-            <Stack pb={20} gap={4}>
+            <Stack
+                as={Box}
+                spacing={{base: 8, md: 14}}
+                py={{base: 20, md: 24}}>
                 <Heading>Contact Us</Heading>
                 <Text as={'b'}>Feel free to reach out via email or visit our social media!</Text>
                 <Stack direction={['column', 'row']} gap={{ base: 4, sm: 0 }}>
