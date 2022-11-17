@@ -6,9 +6,7 @@ import {Container, Box, Accordion, AccordionItem, AccordionButton, AccordionIcon
 const Component = () => (
     <Container id="faq" maxW={'3xl'}>
         <Stack
-            as={Box}
-            spacing={{base: 8, md: 14}}
-            py={{base: 20, md: 36}}>
+             pb={20} gap={4}>
             <Heading>FAQ</Heading>
 
             <Accordion defaultIndex={[0]} allowMultiple>
