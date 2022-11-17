@@ -301,7 +301,7 @@ const NAV_ITEMS: Array<NavItem> = [
     },
     {
         label: 'FAQ',
-        href: '#FAQ'
+        href: '#faq'
     },
     {
         label: 'Contact Us',
