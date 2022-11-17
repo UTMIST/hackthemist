@@ -8,6 +8,7 @@ import "../style/override.css";
 import Footer from '../sections/Footer';
 import Contact from '../sections/Contact';
 import Sponsors from '../sections/Sponsors';
+import FAQ from '../sections/FAQ';
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
             <Header/>
             <AboutUs/>
             <Sponsors/>
+            <FAQ/>
             <Contact/>
             <Footer/>
         </ChakraProvider>

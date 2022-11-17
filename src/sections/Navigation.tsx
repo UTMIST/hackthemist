@@ -300,6 +300,10 @@ const NAV_ITEMS: Array<NavItem> = [
         href: '#sponsors'
     },
     {
+        label: 'FAQ',
+        href: '#faq'
+    },
+    {
         label: 'Contact Us',
         href: '#contact-us'
     },
