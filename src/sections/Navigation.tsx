@@ -47,7 +47,7 @@ const Navbar = () => {
 
     const backgroundColor = navbarTransparent
         ? 'rgba(0, 0, 0, 0)'
-        : 'rgba(20, 20, 20, 255)'
+        : 'rgba(10, 10, 10, 0.95)'
 
     const borderColor = 'rgba(0, 0, 0, 0)';
 
@@ -80,16 +80,18 @@ const Navbar = () => {
                         aria-label={'Toggle Navigation'}
                     />
                 </Flex>
-                <Flex flex={{base: 1}} justify={{base: 'center', md: 'start'}} display={{base: 'none', md: 'flex'}}>
+                <Flex flex={{base: 1}} justify={{base: 'center', md: 'start'}} display={{base: 'none', md: 'flex'}}
+                      style={{marginLeft: '50px', marginRight: '50px'}}>
                     <Link
                         href='#'
                         textAlign={useBreakpointValue({base: 'center', md: 'left'})}
                         fontFamily={'heading'}
                         color={textColor}>
-                        <Image src={logo} />
+                        <Image src={logo}/>
                     </Link>
 
-                    <Flex display={{base: 'none', md: 'flex'}} ml={10}>
+                    <Flex display={{base: 'none', md: 'flex'}} ml={10}
+                          style={{marginTop: 'auto', marginLeft: 'auto', marginBottom: 'auto'}}>
                         <DesktopNav navbarDocked={navbarTransparent}/>
                     </Flex>
                 </Flex>
