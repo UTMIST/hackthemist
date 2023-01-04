@@ -2,9 +2,14 @@ import * as React from 'react';
 import {Container, Grid, GridItem, Heading, Stack, Box, Image, Text, Show, Hide} from '@chakra-ui/react'
 import boredPeople from '../img/bored_people.jpeg';
 import speaker from '../img/speaker.jpg';
+import blueBlob from '../img/blue_blob.svg';
+import redBlob from '../img/red_blob.svg';
 
 const Component = () => (
     <Container id="about-us" maxW={'3xl'}>
+        <Image src={blueBlob} className="blob" style={{left: '-20%'}}/>
+        <Image src={redBlob} className="blob" style={{right: '-20%', marginTop: '300px'}}/>
+
         <Stack
             as={Box}
             spacing={{base: 8, md: 14}}
