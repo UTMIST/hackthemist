@@ -9,7 +9,7 @@ const Component = () => (
             as={Box}
             spacing={{base: 8, md: 14}}
             pt={{base: 20, md: 24}}>
-            <Heading>FAQ</Heading>
+            <Heading className="heading"> FAQ</Heading>
 
             <Accordion defaultIndex={[0]} allowMultiple>
                 <AccordionItem>

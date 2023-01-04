@@ -2,11 +2,26 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Drop shadow */
-.shadow {
-    box-shadow: 0px 10px 27px 0px rgba(0, 0, 0, 0.34);
-    margin-top: 15px;
-    margin-bottom: 15px;
+/* Header */
+.headerlogo {
+    max-width: calc(min(85vw, 450px));
+}
+
+/* Section */
+.heading {
+    text-align: center;
+}
+
+/* Image Outline */
+.outline {
+    outline-color: white;
+    outline-width: 5px;
+    outline-style: solid;
+}
+
+/* Images */
+.circle {
+    border-radius: 50%;
 }
 
 /* Zoom hover */

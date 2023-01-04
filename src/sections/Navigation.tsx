@@ -16,7 +16,7 @@ import {
     PopoverContent,
     useColorModeValue,
     useBreakpointValue,
-    useDisclosure,
+    useDisclosure, Image,
 } from '@chakra-ui/react';
 import {
     HamburgerIcon,
@@ -24,6 +24,7 @@ import {
     ChevronDownIcon,
     ChevronRightIcon,
 } from '@chakra-ui/icons';
+import logo from '../img/logo.svg'
 import {useEffect, useState} from "react";
 
 const Navbar = () => {
@@ -46,15 +47,11 @@ const Navbar = () => {
 
     const backgroundColor = navbarTransparent
         ? 'rgba(0, 0, 0, 0)'
-        : 'white'
+        : 'rgba(20, 20, 20, 255)'
 
-    const borderColor = navbarTransparent
-        ? 'rgba(0, 0, 0, 0)'
-        : 'gray.400';
+    const borderColor = 'rgba(0, 0, 0, 0)';
 
-    const textColor = navbarTransparent
-        ? 'rgba(255, 255, 255, 255)'
-        : 'gray.600';
+    const textColor = 'white';
 
     return (
         <Box style={{position: 'fixed', width: '100%', zIndex: 1000}}>
@@ -89,7 +86,7 @@ const Navbar = () => {
                         textAlign={useBreakpointValue({base: 'center', md: 'left'})}
                         fontFamily={'heading'}
                         color={textColor}>
-                        Hack the MIST
+                        <Image src={logo} />
                     </Link>
 
                     <Flex display={{base: 'none', md: 'flex'}} ml={10}>
@@ -134,12 +131,8 @@ const Navbar = () => {
 }
 
 const DesktopNav = ({navbarDocked}: { navbarDocked: boolean }) => {
-    const linkColor = navbarDocked
-        ? 'white'
-        : 'gray.600';
-    const linkHoverColor = navbarDocked
-        ? 'white'
-        : 'gray.800';
+    const linkColor = 'white';
+    const linkHoverColor = 'white';
     const popoverContentBgColor = useColorModeValue('white', 'gray.800');
 
     return (
