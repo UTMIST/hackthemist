@@ -6,13 +6,11 @@ import headerLogo from '../img/header_logo.svg';
 import {
     EmailIcon,
 } from '@chakra-ui/icons';
-import blueBlob from "../img/blue_blob.svg";
 
 const Component = () => (
     <Container maxW={'3xl'}>
         <div className='backgroundGraphicParent'>
-            <Hacker style={{right: 0, top: '500px', zIndex: -1, textAlign: 'right'}}/>
-            <Image src={blueBlob} className="backgroundGraphic" style={{right: '-5%', marginTop: '300px'}}/>
+            <Hacker style={{right: '-10%', top: '200px'}}/>
         </div>
         <Stack
             as={Box}

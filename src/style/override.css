@@ -45,7 +45,7 @@ html {
     width: 100vw;
     overflow-x: hidden;
     position: absolute;
-    min-height: 100vh;
+    min-height: 110vh;
     left: 0;
 }
 
@@ -54,6 +54,18 @@ html {
     z-index: -2;
     max-width: 40vw;
     overflow: hidden;
+}
+
+.hacker {
+    z-index: -1;
+    text-align: right;
+    max-width: calc(min(600px, 40vw));
+    max-height: calc(min(600px, 40vw));
+    text-overflow: "";
+    overflow: hidden;
+    border-radius: 50%;
+    color: rgb(12, 12, 12);
+    font-weight: bold;
 }
 
 /* Header */
