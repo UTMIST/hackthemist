@@ -7,8 +7,10 @@ import redBlob from '../img/red_blob.svg';
 
 const Component = () => (
     <Container id="about-us" maxW={'3xl'}>
-        <Image src={blueBlob} className="blob" style={{left: '-20%'}}/>
-        <Image src={redBlob} className="blob" style={{right: '-20%', marginTop: '300px'}}/>
+        <div className='backgroundGraphicParent'>
+            <Image src={blueBlob} className="backgroundGraphic pulse" style={{left: '-20%'}}/>
+            <Image src={redBlob} className="backgroundGraphic pulse" style={{right: '-20%', marginTop: '300px'}}/>
+        </div>
 
         <Stack
             as={Box}

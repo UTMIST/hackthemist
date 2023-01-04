@@ -6,7 +6,7 @@ html {
 @-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(0.9);
-        opacity: 0.7;
+        opacity: 0.5;
     }
     50% {
         -webkit-transform: scale(1);
@@ -14,14 +14,14 @@ html {
     }
     100% {
         -webkit-transform: scale(0.9);
-        opacity: 0.7;
+        opacity: 0.5;
     }
 }
 
 @keyframes pulse {
     0% {
         transform: scale(0.9);
-        opacity: 0.7;
+        opacity: 0.5;
     }
     50% {
         transform: scale(1);
@@ -29,20 +29,31 @@ html {
     }
     100% {
         transform: scale(0.9);
-        opacity: 0.7;
+        opacity: 0.5;
     }
 }
 
-.blob {
-    position: absolute;
-    z-index: -1;
-    max-width: 40vw;
-
+.pulse {
     -webkit-animation: pulse 3s infinite ease-in-out;
     -o-animation: pulse 3s infinite ease-in-out;
     -ms-animation: pulse 3s infinite ease-in-out;
     -moz-animation: pulse 3s infinite ease-in-out;
     animation: pulse 3s infinite ease-in-out;
+}
+
+.backgroundGraphicParent {
+    width: 100vw;
+    overflow-x: hidden;
+    position: absolute;
+    min-height: 100vh;
+    left: 0;
+}
+
+.backgroundGraphic {
+    position: absolute;
+    z-index: -2;
+    max-width: 40vw;
+    overflow: hidden;
 }
 
 /* Header */
