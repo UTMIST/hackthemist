@@ -1,16 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.f96e9cd4.css",
-    "main.js": "/static/js/main.c0a31b63.js",
-    "static/media/audience.jpg": "/static/media/audience.eb6fe7efba29211ffbd9.jpg",
-    "static/media/speaker.jpg": "/static/media/speaker.c3a2bc51d1b6e9a93fec.jpg",
-    "static/media/bored_people.jpeg": "/static/media/bored_people.bedbb8fcb45ac12ba7fe.jpeg",
+    "main.css": "/static/css/main.75adbfae.css",
+    "main.js": "/static/js/main.c9f8fada.js",
+    "static/media/speaker.jpg": "/static/media/speaker.a275484c446f3668b801.jpg",
+    "static/media/bored_people.jpeg": "/static/media/bored_people.c5d18f5a1a8ddf395634.jpeg",
+    "static/media/open-sans-all-700-normal.woff": "/static/media/open-sans-all-700-normal.105e43091a26bbed22fe.woff",
+    "static/media/raleway-all-400-normal.woff": "/static/media/raleway-all-400-normal.98e7ff86f2b9a46e19cc.woff",
+    "static/media/raleway-latin-400-normal.woff2": "/static/media/raleway-latin-400-normal.0bdecdd83e78d540c297.woff2",
+    "static/media/open-sans-cyrillic-ext-700-normal.woff2": "/static/media/open-sans-cyrillic-ext-700-normal.00b4dd1737b042f58e99.woff2",
+    "static/media/open-sans-latin-700-normal.woff2": "/static/media/open-sans-latin-700-normal.b245bc85ddeedb27a549.woff2",
+    "static/media/raleway-latin-ext-400-normal.woff2": "/static/media/raleway-latin-ext-400-normal.e2c3693083a044bed680.woff2",
+    "static/media/open-sans-latin-ext-700-normal.woff2": "/static/media/open-sans-latin-ext-700-normal.64471a17dcb915ab3332.woff2",
+    "static/media/raleway-cyrillic-ext-400-normal.woff2": "/static/media/raleway-cyrillic-ext-400-normal.afca160d632851197a24.woff2",
+    "static/media/raleway-cyrillic-400-normal.woff2": "/static/media/raleway-cyrillic-400-normal.f7d0cc4bf9cf8da4f023.woff2",
+    "static/media/open-sans-cyrillic-700-normal.woff2": "/static/media/open-sans-cyrillic-700-normal.2cf6253fec5056197d00.woff2",
+    "static/media/logo.svg": "/static/media/logo.ea2387bc922c6b7ad2fdde16ccbe202d.svg",
+    "static/media/open-sans-greek-700-normal.woff2": "/static/media/open-sans-greek-700-normal.a0312547715346ffccb1.woff2",
+    "static/media/header_logo.svg": "/static/media/header_logo.7886e98b0cef77f0903a3f764e65ae4b.svg",
+    "static/media/open-sans-hebrew-700-normal.woff2": "/static/media/open-sans-hebrew-700-normal.3befb44d920b69550008.woff2",
+    "static/media/open-sans-vietnamese-700-normal.woff2": "/static/media/open-sans-vietnamese-700-normal.b4c5968d5737aea8ed2d.woff2",
+    "static/media/raleway-vietnamese-400-normal.woff2": "/static/media/raleway-vietnamese-400-normal.bb6f51e1b67ec8802d57.woff2",
+    "static/media/open-sans-greek-ext-700-normal.woff2": "/static/media/open-sans-greek-ext-700-normal.8850c90c4b61e6472307.woff2",
     "index.html": "/index.html",
-    "main.f96e9cd4.css.map": "/static/css/main.f96e9cd4.css.map",
-    "main.c0a31b63.js.map": "/static/js/main.c0a31b63.js.map"
+    "static/media/blue_blob.svg": "/static/media/blue_blob.db5c08246805c238bb3bdb2e6d49a944.svg",
+    "static/media/red_blob.svg": "/static/media/red_blob.bc24725ff4bb231d651f75b4c532def6.svg",
+    "main.75adbfae.css.map": "/static/css/main.75adbfae.css.map",
+    "main.c9f8fada.js.map": "/static/js/main.c9f8fada.js.map"
   },
   "entrypoints": [
-    "static/css/main.f96e9cd4.css",
-    "static/js/main.c0a31b63.js"
+    "static/css/main.75adbfae.css",
+    "static/js/main.c9f8fada.js"
   ]
 }
