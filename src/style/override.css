@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 /* Graphics */
@@ -43,7 +44,7 @@ html {
 
 .backgroundGraphicParent {
     width: 100vw;
-    overflow-x: hidden;
+    overflow: hidden;
     position: absolute;
     min-height: 110vh;
     left: 0;
