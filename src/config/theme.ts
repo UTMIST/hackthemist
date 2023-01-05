@@ -1,4 +1,4 @@
-import { extendTheme } from '@chakra-ui/react';
+import {extendTheme, StyleFunctionProps} from '@chakra-ui/react';
 
 const theme = extendTheme({
     fonts: {
@@ -6,8 +6,20 @@ const theme = extendTheme({
         heading: `'Open Sans', sans-serif`,
         body: `'Raleway', sans-serif`,
     },
-    colors: {},
+    colors: {
+        'button': '#4132F0',
+        'button_hover': '#5132F0',
+        'button_pressed': '#3132F0'
+    },
     components: {},
+    styles: {
+        global: (props: StyleFunctionProps) => ({
+            body: {
+                color: '#FFFFFF',
+                bg: 'rgb(12, 12, 12)',
+            },
+        }),
+    }
 });
 
 export default theme;

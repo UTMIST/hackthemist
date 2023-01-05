@@ -2,11 +2,101 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Drop shadow */
-.shadow {
-    box-shadow: 0px 10px 27px 0px rgba(0, 0, 0, 0.34);
-    margin-top: 15px;
-    margin-bottom: 15px;
+/* Graphics */
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(0.9);
+        opacity: 0.5;
+    }
+    50% {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(0.9);
+        opacity: 0.5;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.9);
+        opacity: 0.5;
+    }
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.9);
+        opacity: 0.5;
+    }
+}
+
+.pulse {
+    -webkit-animation: pulse 3s infinite ease-in-out;
+    -o-animation: pulse 3s infinite ease-in-out;
+    -ms-animation: pulse 3s infinite ease-in-out;
+    -moz-animation: pulse 3s infinite ease-in-out;
+    animation: pulse 3s infinite ease-in-out;
+}
+
+.backgroundGraphicParent {
+    width: 100vw;
+    overflow-x: hidden;
+    position: absolute;
+    min-height: 110vh;
+    left: 0;
+}
+
+.backgroundGraphic {
+    position: absolute;
+    z-index: -2;
+    max-width: 40vw;
+    overflow: hidden;
+}
+
+.hacker {
+    z-index: -1;
+    text-align: right;
+    max-width: calc(min(600px, 40vw));
+    max-height: calc(min(600px, 40vw));
+    text-overflow: "";
+    overflow: hidden;
+    border-radius: 50%;
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                     supported by Chrome, Edge, Opera and Firefox */
+}
+
+/* Header */
+.headerlogo {
+    max-width: calc(min(85vw, 450px));
+}
+
+/* Section */
+.heading {
+    text-align: center;
+}
+
+/* Image Outline */
+.outline {
+    outline-color: white;
+    outline-width: 5px;
+    outline-style: solid;
+}
+
+/* Images */
+.circle {
+    border-radius: 50%;
 }
 
 /* Zoom hover */
@@ -23,6 +113,7 @@ html {
 .spacer {
     height: 50%;
 }
+
 .verticalCenter {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);

@@ -8,8 +8,8 @@ const Component = () => (
         <Stack
             as={Box}
             spacing={{base: 8, md: 14}}
-            pt={{base: 20, md: 24}}>
-            <Heading>FAQ</Heading>
+            pt={{base: 20, md: 28}}>
+            <Heading className="heading"> FAQ</Heading>
 
             <Accordion defaultIndex={[0]} allowMultiple>
                 <AccordionItem>

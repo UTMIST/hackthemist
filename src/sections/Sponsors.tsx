@@ -14,8 +14,8 @@ const Sponsors = () => {
             <Stack
                 as={Box}
                 spacing={{base: 8, md: 14}}
-                pt={{base: 20, md: 24}}>
-                <Heading>Sponsors</Heading>
+                pt={{base: 20, md: 28}}>
+                <Heading className="heading"> Sponsors</Heading>
                 <Text>Interested in sponsoring us? Get in touch with our team at&nbsp;
                     <Link textDecor={'underline'} href="mailto:utmist.outreach@gmail.com">
                         utmist.outreach@gmail.com

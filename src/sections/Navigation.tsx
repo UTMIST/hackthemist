@@ -16,7 +16,7 @@ import {
     PopoverContent,
     useColorModeValue,
     useBreakpointValue,
-    useDisclosure,
+    useDisclosure, Image,
 } from '@chakra-ui/react';
 import {
     HamburgerIcon,
@@ -24,6 +24,7 @@ import {
     ChevronDownIcon,
     ChevronRightIcon,
 } from '@chakra-ui/icons';
+import logo from '../img/logo.svg'
 import {useEffect, useState} from "react";
 
 const Navbar = () => {
@@ -46,15 +47,11 @@ const Navbar = () => {
 
     const backgroundColor = navbarTransparent
         ? 'rgba(0, 0, 0, 0)'
-        : 'white'
+        : 'rgba(10, 10, 10, 0.95)'
 
-    const borderColor = navbarTransparent
-        ? 'rgba(0, 0, 0, 0)'
-        : 'gray.400';
+    const borderColor = 'rgba(0, 0, 0, 0)';
 
-    const textColor = navbarTransparent
-        ? 'rgba(255, 255, 255, 255)'
-        : 'gray.600';
+    const textColor = 'white';
 
     return (
         <Box style={{position: 'fixed', width: '100%', zIndex: 1000}}>
@@ -83,16 +80,18 @@ const Navbar = () => {
                         aria-label={'Toggle Navigation'}
                     />
                 </Flex>
-                <Flex flex={{base: 1}} justify={{base: 'center', md: 'start'}} display={{base: 'none', md: 'flex'}}>
+                <Flex flex={{base: 1}} justify={{base: 'center', md: 'start'}} display={{base: 'none', md: 'flex'}}
+                      style={{marginLeft: '50px', marginRight: '50px'}}>
                     <Link
                         href='#'
                         textAlign={useBreakpointValue({base: 'center', md: 'left'})}
                         fontFamily={'heading'}
                         color={textColor}>
-                        Hack the MIST
+                        <Image src={logo}/>
                     </Link>
 
-                    <Flex display={{base: 'none', md: 'flex'}} ml={10}>
+                    <Flex display={{base: 'none', md: 'flex'}} ml={10}
+                          style={{marginTop: 'auto', marginLeft: 'auto', marginBottom: 'auto'}}>
                         <DesktopNav navbarDocked={navbarTransparent}/>
                     </Flex>
                 </Flex>
@@ -134,12 +133,8 @@ const Navbar = () => {
 }
 
 const DesktopNav = ({navbarDocked}: { navbarDocked: boolean }) => {
-    const linkColor = navbarDocked
-        ? 'white'
-        : 'gray.600';
-    const linkHoverColor = navbarDocked
-        ? 'white'
-        : 'gray.800';
+    const linkColor = 'white';
+    const linkHoverColor = 'white';
     const popoverContentBgColor = useColorModeValue('white', 'gray.800');
 
     return (
