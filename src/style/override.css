@@ -57,6 +57,11 @@ html {
     overflow: hidden;
 }
 
+.backgroundGraphicFAQ{
+    position: absolute;
+    z-index: -2;
+    overflow: hidden;
+}
 .hacker {
     z-index: -1;
     text-align: right;
