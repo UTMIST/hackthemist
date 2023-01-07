@@ -25,7 +25,7 @@ const Sponsors = () => {
                 <Heading className="heading">Meet Our Sponsors</Heading>
                 <Text align='center' paddingBottom='14'>Interested in sponsoring us? Get in touch with our team at&nbsp;
                     <Link textDecor={'underline'} href="mailto:sponsor@utmist.org">
-                        sponsor@utmist.orghi
+                        sponsor@utmist.org
                     </Link>
                 </Text>
             </Stack>
