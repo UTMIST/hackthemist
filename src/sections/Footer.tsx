@@ -47,7 +47,7 @@ const Footer = () => {
                                     transition={'0.25s'}
                                 >
                                     MLH Code of Conduct
-                                </Link> | © 2022 UTMIST
+                                </Link> | © { new Date().getFullYear() } UTMIST
                             </Text>
                         </VStack>
                     </Center>
