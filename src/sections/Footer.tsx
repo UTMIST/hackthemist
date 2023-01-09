@@ -23,7 +23,12 @@ const Footer = () => {
                             <Image src={logo} className="headerlogo" />
                         </Link>
                     </Center>
-                    <Center mt={{ base: 8, md: 3}} pl={10}>
+                    <Center
+                        mt={{ base: 8, md: 3 }}
+                        pl={{ base: 5, sm: 10 }}
+                        pr={{ base: 5, sm: 0 }} 
+                        textAlign={{ base: 'center', sm: 'left' }}
+                    >
                         <VStack align={'left'}>
                             <Text>
                                 Presented by the&nbsp;
