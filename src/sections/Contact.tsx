@@ -6,12 +6,10 @@ import {
     Stack,
     Text,
     Button,
-    Icon,
     Link,
     Center,
     Box
 } from '@chakra-ui/react';
-import { EmailIcon } from '@chakra-ui/icons';
 import {
     FiMail,
     FiFacebook,
