@@ -48,6 +48,7 @@ html {
     position: absolute;
     min-height: 110vh;
     left: 0;
+    z-index: -2;
 }
 
 .backgroundGraphic {
