@@ -2,55 +2,58 @@ import * as React from 'react';
 import {
     Box,
     Container,
-    Heading,
     Link,
     Flex,
     Text,
-    useColorModeValue,
-    Spacer,
     Center,
-    VStack
-} from '@chakra-ui/react'
+    VStack,
+    Image
+} from '@chakra-ui/react';
+import logo from '../img/logo.svg';
 
 const Footer = () => {
     return (
         <Box
-            bg={useColorModeValue('gray.800', 'white')}
-            color={useColorModeValue('white', 'gray.800')}
+            bg={'#000'}
         >
             <Container maxW={'3xl'} py={10}>
-                <VStack alignItems={'left'} pb={{ base: 10, sm: 0 }}>
-                    <Link href="#" _hover={{ color: 'blue.600' }} transition={'0.25s'}>
-                        <Heading fontSize={25}>Hack the MIST</Heading>
-                    </Link>
-                    <Text>
-                        Presented by the&nbsp;
-                        <Link
-                            textDecor={'underline'}
-                            href="https://utmist.gitlab.io"
-                            isExternal
-                            _hover={{ color: 'blue.600' }}
-                            transition={'0.25s'}
-                        >
-                            University of Toronto Machine Intelligence Student Team
-                        </Link>
-                    </Text>
-                </VStack>
-                <Flex mt={{ base: 0, sm: 6 }}>
-                    <Link
-                        href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
-                        textDecor={'underline'}
-                        isExternal
-                        _hover={{ color: 'blue.600' }}
-                        transition={'0.25s'}
-                    >
-                        MLH Code of Conduct
-                    </Link>
-                    
-                    <Spacer />
-
+                <Flex direction={['column', 'row']}>
                     <Center>
-                        <Text>© 2022 UTMIST</Text>
+                        <Link href="#">
+                            <Image src={logo} className="headerlogo" />
+                        </Link>
+                    </Center>
+                    <Center
+                        mt={{ base: 8, md: 3 }}
+                        pl={{ base: 5, sm: 10 }}
+                        pr={{ base: 5, sm: 0 }} 
+                        textAlign={{ base: 'center', sm: 'left' }}
+                    >
+                        <VStack align={'left'}>
+                            <Text>
+                                Presented by the&nbsp;
+                                <Link
+                                    href="https://utmist.gitlab.io"
+                                    textDecor={'underline'}
+                                    isExternal
+                                    _hover={{ color: 'blue.600' }}
+                                    transition={'0.25s'}
+                                >
+                                    University of Toronto Machine Intelligence Student Team
+                                </Link>
+                            </Text>
+                            <Text>
+                                <Link
+                                    href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
+                                    textDecor={'underline'}
+                                    isExternal
+                                    _hover={{ color: 'blue.600' }}
+                                    transition={'0.25s'}
+                                >
+                                    MLH Code of Conduct
+                                </Link> | © { new Date().getFullYear() } UTMIST
+                            </Text>
+                        </VStack>
                     </Center>
                 </Flex>
             </Container>
