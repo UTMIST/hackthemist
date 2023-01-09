@@ -13,38 +13,38 @@ import {
 } from '@chakra-ui/react';
 import { EmailIcon } from '@chakra-ui/icons';
 import {
-    FaEnvelope,
-    FaFacebook,
-    FaInstagram,
-    FaLinkedin,
-    FaTwitter
-} from 'react-icons/fa'
+    FiMail,
+    FiFacebook,
+    FiInstagram,
+    FiLinkedin,
+    FiTwitter
+} from 'react-icons/fi'
 
 const Contact = () => {
     const socialData = [
         {
             aria: 'Email',
-            icon: <FaEnvelope />,
+            icon: <FiMail />,
             href: 'mailto:utorontomist@gmail.com'
         },
         {
             aria: 'Facebook',
-            icon: <FaFacebook />,
+            icon: <FiFacebook />,
             href: 'https://www.facebook.com/UofT.MIST'
         },
         {
             aria: 'Instagram',
-            icon: <FaInstagram />,
+            icon: <FiInstagram />,
             href: 'https://instagram.com/uoft_utmist'
         },
         {
             aria: 'LinkedIn',
-            icon: <FaLinkedin />,
+            icon: <FiLinkedin />,
             href: 'https://linkedin.com/company/utmist'
         },
         {
             aria: 'Twitter',
-            icon: <FaTwitter />,
+            icon: <FiTwitter />,
             href: 'https://twitter.com/UTMIST1'
         }
     ]
@@ -86,7 +86,7 @@ const Contact = () => {
                                         <Link
                                             aria-label={social.aria}
                                             href={social.href}
-                                            fontSize={20}
+                                            fontSize={24}
                                             isExternal>
                                             {social.icon}
                                         </Link>
