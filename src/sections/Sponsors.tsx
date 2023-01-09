@@ -11,7 +11,6 @@ import {
 } from '@chakra-ui/react';
 
 import redBlob from '../img/red_blob.svg';
-
 const Sponsors = () => {
     return (
         <Container id="sponsors" maxW={'3xl'}>
@@ -23,11 +22,15 @@ const Sponsors = () => {
                 spacing={{base: 8, md: 14}}
                 pt={{base: 20, md: 28}}>
                 <Heading className="heading">Meet Our Sponsors</Heading>
-                <Text align='center' paddingBottom='14'>Interested in sponsoring us? Get in touch with our team at&nbsp;
+                <Text align='center' >Interested in sponsoring us? Get in touch with our team at&nbsp;
                     <Link textDecor={'underline'} href="mailto:sponsor@utmist.org">
                         sponsor@utmist.org
-                    </Link>
+                    </Link>&nbsp;and view our sponsorship package&nbsp;
+                    <Link textDecor={'underline'} target="_blank" href="/Hack the MIST Sponsorship Package.pdf">
+                        here
+                    </Link>.
                 </Text>
+                   
             </Stack>
             
         </Container>
