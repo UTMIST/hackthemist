@@ -64,7 +64,7 @@ const Contact = () => {
                             bg={'button'}
                             rounded={'full'}
                             px={6}
-                            mr={5}
+                            mr={{ base: 0, sm: 5}}
                             _hover={{
                                 bg: 'button_hover',
                             }}
@@ -73,7 +73,7 @@ const Contact = () => {
                             }}
                             onClick={() => window.open('https://eepurl.com/dGMddD', '_blank')}
                         >
-                            Join our mailing list
+                            Join Our Mailing List
                         </Button>
                         <Flex gap={6}>
                             {
