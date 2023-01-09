@@ -17,14 +17,13 @@ const Footer = () => {
             bg={'#000'}
         >
             <Container maxW={'3xl'} py={10}>
-                <Flex>
+                <Flex direction={['column', 'row']}>
                     <Center>
                         <Link href="#">
                             <Image src={logo} className="headerlogo" />
                         </Link>
-                        
                     </Center>
-                    <Center pt={3} pl={10}>
+                    <Center mt={{ base: 8, md: 3}} pl={10}>
                         <VStack align={'left'}>
                             <Text>
                                 Presented by the&nbsp;
