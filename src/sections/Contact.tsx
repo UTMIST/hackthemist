@@ -61,22 +61,18 @@ const Contact = () => {
                 <Center>                
                     <Stack direction={['column', 'row']} gap={{ base: 4, sm: 0 }}>
                         <Button
-                            colorScheme={'blue'}
-                            bg={'blue.600'}
+                            bg={'button'}
                             rounded={'full'}
                             px={6}
                             mr={5}
                             _hover={{
-                                bg: 'blue.500',
+                                bg: 'button_hover',
+                            }}
+                            _active={{
+                                bg: 'button_pressed',
                             }}
                             onClick={() => window.open('https://eepurl.com/dGMddD', '_blank')}
                         >
-                            <Icon
-                                as={EmailIcon}
-                                w={6}
-                                h={6}
-                                style={{ marginRight: '10px' }}
-                            />
                             Join our mailing list
                         </Button>
                         <Flex gap={6}>
