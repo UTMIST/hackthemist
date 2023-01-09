@@ -11,7 +11,6 @@ import {
 } from '@chakra-ui/react';
 
 import redBlob from '../img/red_blob.svg';
-import sponsorshipPackage from '../file/Package.pdf';
 const Sponsors = () => {
     return (
         <Container id="sponsors" maxW={'3xl'}>
@@ -27,7 +26,7 @@ const Sponsors = () => {
                     <Link textDecor={'underline'} href="mailto:sponsor@utmist.org">
                         sponsor@utmist.org
                     </Link>&nbsp;and view our sponsorship package&nbsp;
-                    <Link textDecor={'underline'} href={sponsorshipPackage}>
+                    <Link textDecor={'underline'} href="/Package.pdf">
                         here
                     </Link>.
                 </Text>
