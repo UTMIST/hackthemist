@@ -55,7 +55,7 @@ const Contact = () => {
                 py={{base: 20, md: 24}}
             >
                 <Heading className="heading">Contact Us</Heading>
-                <Text as={'b'} fontSize={'xl'} align={'center'}>Feel free to reach out via email or visit our social media!</Text>
+                <Text align={'center'}>Feel free to reach out via email or visit our social media!</Text>
                 <Center>                
                     <Stack direction={['column', 'row']} gap={{ base: 4, sm: 0 }}>
                         <Button
