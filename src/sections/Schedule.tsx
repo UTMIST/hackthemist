@@ -5,7 +5,15 @@ import dayTwo from '../img/day_two.svg';
 
 const Schedule = () => {
     return (
-        <Box width='100%' marginTop='200px' display='flex' flexDirection='column' alignItems='center'>
+        <Box
+            width='100%'
+            marginTop='200px'
+            display='flex'
+            flexDirection='column'
+            alignItems='center'
+            paddingLeft='20px'
+            paddingRight='20px'
+        >
             <Heading className='heading'>Event Schedule</Heading>
             <Box
                 marginTop='115px'
@@ -18,20 +26,22 @@ const Schedule = () => {
                     <Image src={dayOne} width='210px' height='210px' />
                     <Box display='flex' flexDirection='row' alignItems='center' gap='50px' marginTop='50px'>
                         <Box display='flex' flexDirection='column' alignItems='left' gap='30px'>
-                            <Text>9:00 AM - 10:00 AM</Text>
-                            <Text>10:00 AM - 11:00 AM</Text>
+                            <Text>9:00 AM (Bahen Atrium)</Text>
+                            <Text>10:00 AM (BA 1130)</Text>
                             <Text>11:00 AM</Text>
-                            <Text>12:00 PM</Text>
-                            <Text>1:00 PM - 6:00 PM</Text>
-                            <Text>6:00 PM</Text>
+                            <Text>12:00 PM (Bahen Atrium)</Text>
+                            <Text>1:00 PM - 2:00 PM (BA 1200 & 1230)</Text>
+                            <Text>2:00 PM - 3:00 PM</Text>
+                            <Text>4:00 PM - 6:00 PM</Text>
                         </Box>
-                        <Box display='flex' flexDirection='column' alignItems='left' gap='24px'>
-                            <Text fontSize='xl'>Check-In</Text>
-                            <Text fontSize='xl'>Opening Ceremony</Text>
-                            <Text fontSize='xl'>Hacking Begins!</Text>
-                            <Text fontSize='xl'>Lunch</Text>
-                            <Text fontSize='xl'>Workshops & Activities</Text>
-                            <Text fontSize='xl'>Dinner</Text>
+                        <Box display='flex' flexDirection='column' alignItems='left' gap='30px'>
+                            <Text>Check-In</Text>
+                            <Text>Opening Ceremony</Text>
+                            <Text>Hacking Begins!</Text>
+                            <Text>Lunch</Text>
+                            <Text>Workshops</Text>
+                            <Text>Industry Panel and Q&A</Text>
+                            <Text>Internal Career Fair</Text>
                         </Box>
                     </Box>
                 </Box>
@@ -39,22 +49,18 @@ const Schedule = () => {
                     <Image src={dayTwo} width='210px' height='210px' />
                     <Box display='flex' flexDirection='row' alignItems='center' gap='50px' marginTop='50px'>
                         <Box display='flex' flexDirection='column' alignItems='left' gap='30px'>
-                            <Text>8:00 AM - 9:00 AM</Text>
-                            <Text>11:00 AM - 12:00 PM</Text>
-                            <Text>12:00 PM - 1:00 PM</Text>
+                            <Text>12:00 PM - 1:00 PM (Bahen Atrium)</Text>
+                            <Text>2:00 PM - 3:00 PM (BA 1170)</Text>
                             <Text>4:00 PM</Text>
-                            <Text>4:00 PM - 5:00 PM</Text>
-                            <Text>5:00 PM - 6:00 PM</Text>
-                            <Text>6:00 PM - 7:00 PM</Text>
+                            <Text>4:00 PM - 5:00 PM (Bahen Atrium)</Text>
+                            <Text>5:00 PM - 6:00 PM (BA 1130)</Text>
                         </Box>
-                        <Box display='flex' flexDirection='column' alignItems='left' gap='24px'>
-                            <Text fontSize='xl'>Breakfast</Text>
-                            <Text fontSize='xl'>Technical Workshop</Text>
-                            <Text fontSize='xl'>Lunch</Text>
-                            <Text fontSize='xl'>Hacking Ends!</Text>
-                            <Text fontSize='xl'>Hackers' Mixer / Judging</Text>
-                            <Text fontSize='xl'>Closing Ceremony</Text>
-                            <Text fontSize='xl'>Gala / Networking</Text>
+                        <Box display='flex' flexDirection='column' alignItems='left' gap='30px'>
+                            <Text>Lunch</Text>
+                            <Text>Sponsor Technical Workshop</Text>
+                            <Text>Hacking Ends!</Text>
+                            <Text>Networking and Discussion</Text>
+                            <Text>Closing Ceremony</Text>
                         </Box>
                     </Box>
                 </Box>
