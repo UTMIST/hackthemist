@@ -1,21 +1,12 @@
 import React from 'react';
-import {
-    Container,
-    Stack,
-    Heading,
-    Text,
-    Link,
-    Box,
-    Image,
-
-} from '@chakra-ui/react';
+import { Container, Stack, Heading, Text, Link, Box, Image } from '@chakra-ui/react';
 
 import redBlob from '../img/red_blob.svg';
 const Sponsors = () => {
     return (
-        <Container id="sponsors" maxW={'3xl'}>
-             <div className="backgroundGraphicParent" style={{zIndex: '-2'}}>
-                <Image src={redBlob} className="backgroundGraphic pulse" style={{right: '20%', maxWidth:'30vw'}}/>
+        <Container id='sponsors' maxW={'3xl'} marginTop='200px'>
+            <div className='backgroundGraphicParent' style={{ zIndex: '-2' }}>
+                <Image src={redBlob} className='backgroundGraphic pulse' style={{ right: '20%', maxWidth: '30vw' }} />
             </div>
             <Stack
                 as={Box}
@@ -32,9 +23,8 @@ const Sponsors = () => {
                 </Text>
                    
             </Stack>
-            
         </Container>
-    )
-}
+    );
+};
 
 export default Sponsors;
