@@ -23,7 +23,7 @@ const Component = () => (
                 color={'white'}
                 fontSize={{base: '1xl'}}
                 style={{marginTop: '0'}}>
-                Spring 2022 @ University of Toronto | Presented by UTMIST
+                Spring 2023 @ University of Toronto | Presented by UTMIST
             </Heading>
             <Center>
                 <Image src={headerLogo} className="headerlogo"/>
