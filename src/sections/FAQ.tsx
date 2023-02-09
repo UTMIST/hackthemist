@@ -211,7 +211,7 @@ const Component = () => (
                     <AccordionPanel pb={4} >
                        <Box paddingLeft='26px'>
                         <Box paddingLeft='10'>
-                            TBD
+                            March 3rd for Hackers. March 7th for Mentors.
                         </Box>
                        </Box>
                     </AccordionPanel>
