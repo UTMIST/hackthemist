@@ -31,8 +31,7 @@ const Schedule = () => {
                             <Text>11:00 AM</Text>
                             <Text>12:00 PM (Bahen Atrium)</Text>
                             <Text>1:00 PM - 2:00 PM (BA 1200 & 1230)</Text>
-                            <Text>2:00 PM - 3:00 PM</Text>
-                            <Text>4:00 PM - 6:00 PM</Text>
+                            <Text>4:00 PM - 5:00 PM</Text>
                         </Box>
                         <Box display='flex' flexDirection='column' alignItems='left' gap='30px'>
                             <Text>Check-In</Text>
@@ -40,7 +39,6 @@ const Schedule = () => {
                             <Text>Hacking Begins!</Text>
                             <Text>Lunch</Text>
                             <Text>Workshops</Text>
-                            <Text>Industry Panel and Q&A</Text>
                             <Text>Internal Career Fair</Text>
                         </Box>
                     </Box>
