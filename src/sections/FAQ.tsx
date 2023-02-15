@@ -376,7 +376,7 @@ const Component = () => (
                         )}
                         <Box as="span" flex='1' textAlign='left' paddingLeft='10'>
                         <b>
-                            What are the themes for Hack The MIST?
+                            What are some learning outcomes and benefits of Hack The MIST?
                         </b>
                         </Box>
                     </AccordionButton>
