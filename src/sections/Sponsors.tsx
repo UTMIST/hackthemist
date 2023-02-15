@@ -16,9 +16,6 @@ const Sponsors = () => {
                 <Text align='center' >Interested in sponsoring us? Get in touch with our team at&nbsp;
                     <Link textDecor={'underline'} href="mailto:sponsor@utmist.org">
                         sponsor@utmist.org
-                    </Link>&nbsp;and view our sponsorship package&nbsp;
-                    <Link textDecor={'underline'} target="_blank" href="/Hack the MIST Sponsorship Package.pdf">
-                        here
                     </Link>.
                 </Text>
                    
