@@ -68,8 +68,36 @@ const Component = () => (
                     <AccordionPanel pb={4} >
                        <Box paddingLeft='26px'>
                         <Box paddingLeft='10'>
-                            High school and undergraduate students with any coding/designing background.
+                            High school, undergraduate, and graduate students with any academic or professional background.
                         </Box>
+                       </Box>
+                    </AccordionPanel>
+                </>
+                )}
+                 </AccordionItem>
+                 <AccordionItem borderStyle='unset' paddingBottom='5'>
+                {({ isExpanded }) => (
+                <>
+                    <h2>
+                    <AccordionButton>            
+                    <Image src={blueBlob} className="backgroundGraphicFAQ" style={{width: '40px', boxSizing: 'border-box', borderRadius: '50%', border: '2px solid #FFFFFF'}}/>
+
+                        {isExpanded ? (
+                            <MinusIcon fontSize='12px' marginLeft='14px'/>
+                            ) : (
+                            <AddIcon fontSize='12px' marginLeft='14px'/>
+                        )}
+                        <Box as="span" flex='1' textAlign='left' paddingLeft='10'>
+                        <b>
+                            What are the themes for Hack The MIST?
+                        </b>
+                        </Box>
+                    </AccordionButton>
+                    </h2>
+                    <AccordionPanel pb={4} >
+                       <Box paddingLeft='26px'>
+                        <Box paddingLeft='10'>
+                            Hack The MIST has challenges revolving around NLP, Art, and Climate Change. Your team can address any theme(s) of your choice and build a project using machine learning to solve a real-world problem in that realm.                         </Box>
                        </Box>
                     </AccordionPanel>
                 </>
@@ -145,7 +173,7 @@ const Component = () => (
                         )}
                         <Box as="span" flex='1' textAlign='left' paddingLeft='10'>
                         <b>
-                            What if I have no experience? Can I still come?
+                            I have no experience? Can I still come?
                         </b>
                         </Box>
                     </AccordionButton>
@@ -153,7 +181,7 @@ const Component = () => (
                     <AccordionPanel pb={4} >
                        <Box paddingLeft='26px'>
                         <Box paddingLeft='10'>
-                            This hackathon is open to people with all Machine Learning backgrounds. If you are a beginner in machine learning and looking for a platform to build your first machine learning project this can be a great opportunity for you.
+                            This hackathon is open to all beginners. We plan to have workshops and on-site mentors to support you. If you are a beginner and looking for a platform to build your first machine learning project, this can be a great opportunity for you. Don't worry and go for it!
                         </Box>
                        </Box>
                     </AccordionPanel>
@@ -334,6 +362,45 @@ const Component = () => (
                 </>
                 )}
                  </AccordionItem>
+                 <AccordionItem borderStyle='unset' paddingBottom='5'>
+                {({ isExpanded }) => (
+                <>
+                    <h2>
+                    <AccordionButton>            
+                    <Image src={blueBlob} className="backgroundGraphicFAQ" style={{width: '40px', boxSizing: 'border-box', borderRadius: '50%', border: '2px solid #FFFFFF'}}/>
+
+                        {isExpanded ? (
+                            <MinusIcon fontSize='12px' marginLeft='14px'/>
+                            ) : (
+                            <AddIcon fontSize='12px' marginLeft='14px'/>
+                        )}
+                        <Box as="span" flex='1' textAlign='left' paddingLeft='10'>
+                        <b>
+                            What are the themes for Hack The MIST?
+                        </b>
+                        </Box>
+                    </AccordionButton>
+                    </h2>
+                    <AccordionPanel pb={4} >
+                       <Box paddingLeft='26px'>
+                        <Box paddingLeft='10'>
+                            Beyond building an end-to-end project tackling real-world problems in a team setting, you will get a chance to learn the Introductions to NLP and How to build a Reinforcement Learning Model for the Breakout game, during technical workshops! Feel free to apply your learning in your hackathon project. You will likely use programming languages such as Python, popular ML frameworks such as Keras, Torch, Tensorflow, and ML deployment infrastructures such as AWS and GCP, as well as emerging technologies developed by sponsored companies.<br/><br/>You will also meet and connect with talented on-site mentors, company representatives, and judges who're experienced professionals at speaker panels, a networking session, technical workshops, an internal job fair, and a social gathering event. 
+                        </Box>
+                       </Box>
+                    </AccordionPanel>
+                </>
+                )}
+                 </AccordionItem>
+
+
+
+
+
+
+
+
+
+
             </Accordion>
         </Stack>
     </Container>
