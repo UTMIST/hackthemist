@@ -68,7 +68,7 @@ const Component = () => (
                     <AccordionPanel pb={4} >
                        <Box paddingLeft='26px'>
                         <Box paddingLeft='10'>
-                            High school, undergraduate, and graduate students with any academic or professional background.
+                            High school, undergraduate, and graduate students with some programming experience.
                         </Box>
                        </Box>
                     </AccordionPanel>
@@ -89,7 +89,7 @@ const Component = () => (
                         )}
                         <Box as="span" flex='1' textAlign='left' paddingLeft='10'>
                         <b>
-                            What are the themes for Hack The MIST?
+                            What are the themes for Hack the MIST?
                         </b>
                         </Box>
                     </AccordionButton>
@@ -97,7 +97,7 @@ const Component = () => (
                     <AccordionPanel pb={4} >
                        <Box paddingLeft='26px'>
                         <Box paddingLeft='10'>
-                            Hack The MIST has challenges revolving around NLP, Art, and Climate Change. Your team can address any theme(s) of your choice and build a project using machine learning to solve a real-world problem in that realm.                         </Box>
+                            Hack the MIST has challenges revolving around NLP, Art, and Climate Change. Your team can address any theme(s) of your choice and build a project using machine learning to solve a real-world problem in that realm.                         </Box>
                        </Box>
                     </AccordionPanel>
                 </>
@@ -181,7 +181,7 @@ const Component = () => (
                     <AccordionPanel pb={4} >
                        <Box paddingLeft='26px'>
                         <Box paddingLeft='10'>
-                            This hackathon is open to all beginners. We plan to have workshops and on-site mentors to support you. If you are a beginner and looking for a platform to build your first machine learning project, this can be a great opportunity for you. Don't worry and go for it!
+                            This hackathon is open to beginners with some programming experience. If you've taken a beginners programming class or have programmed in any language before, you will be just fine! We also plan to have workshops and on-site mentors to support you. If this sounds like you and you're looking for a platform to build your first machine learning project, we'll see you there.
                         </Box>
                        </Box>
                     </AccordionPanel>
@@ -376,7 +376,7 @@ const Component = () => (
                         )}
                         <Box as="span" flex='1' textAlign='left' paddingLeft='10'>
                         <b>
-                            What are some learning outcomes and benefits of Hack The MIST?
+                            What are some learning outcomes and benefits of Hack the MIST?
                         </b>
                         </Box>
                     </AccordionButton>

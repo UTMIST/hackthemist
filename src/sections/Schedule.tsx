@@ -46,22 +46,28 @@ const Schedule = () => {
                                     <Text>Hacking Begins!</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>12:00 PM (Bahen Atrium)</Text>
+                                    <Text>11:30 PM (Bahen Atrium)</Text>
                                 </GridItem>
                                 <GridItem>
                                     <Text>Lunch</Text>
                                 </GridItem>
                                 <GridItem>
+                                    <Text>12:00 PM - 1:00 PM (BA 1200)</Text>
+                                </GridItem>
+                                <GridItem>
+                                    <Text>Workshop: Intro to NLP 1: Data Cleaning & Jupyter Hub</Text>
+                                </GridItem>
+                                <GridItem>
                                     <Text>1:00 PM - 2:00 PM (BA 1200)</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>Workshop: Intro to NLP</Text>
+                                    <Text>Workshop: Intro to NLP 3: Applications with Cohere</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>3:00 PM - 4:00 PM (BA 1230)</Text>
+                                    <Text>2:00 PM - 3:00 PM (BA 1230)</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>Workshop: Building RL Models </Text>
+                                    <Text>Workshop: Building a Reinforcement Learning Model</Text>
                                 </GridItem>
                             </Grid>
                         </Box>                                                                                                                     
@@ -82,7 +88,7 @@ const Schedule = () => {
                                     <Text>2:00 PM - 3:00 PM (BA 1170)</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>Sponsor Technical Workshop</Text>
+                                    <Text>Machine Learning Career Panel</Text>
                                 </GridItem>
                                 <GridItem>
                                     <Text>4:00 PM</Text>
