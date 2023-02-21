@@ -61,7 +61,7 @@ const Schedule = () => {
                                     <Text>1:00 PM - 2:00 PM (BA 1200)</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>Workshop: Intro to NLP 3: Applications with Cohere</Text>
+                                    <Text>Workshop: Intro to NLP 2: Applications with Cohere</Text>
                                 </GridItem>
                                 <GridItem>
                                     <Text>2:00 PM - 3:00 PM (BA 1230)</Text>
