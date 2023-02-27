@@ -28,25 +28,25 @@ const Schedule = () => {
                         <Box display='flex' flexDirection='column' alignItems='left' gap='30px'>
                             <Grid templateColumns='repeat(2, 1fr)' gap={6}>
                                 <GridItem>
-                                    <Text>9:30 AM (Bahen Atrium)</Text>
+                                    <Text>9:00 AM (Bahen Atrium)</Text>
                                 </GridItem>
                                 <GridItem>
                                     <Text>Check-In</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>10:00 AM (BA 1130)</Text>
+                                    <Text>9:30 AM - 10:15 AM (BA 1130)</Text>
                                 </GridItem>
                                 <GridItem>
                                     <Text>Opening Ceremony</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>11:00 AM</Text>
+                                    <Text>10:15 AM</Text>
                                 </GridItem>
                                 <GridItem>
                                     <Text>Hacking Begins!</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>11:30 PM (Bahen Atrium)</Text>
+                                    <Text>11:30 AM (Bahen Atrium)</Text>
                                 </GridItem>
                                 <GridItem>
                                     <Text>Lunch</Text>
@@ -61,13 +61,25 @@ const Schedule = () => {
                                     <Text>1:00 PM - 2:00 PM (BA 1200)</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>Workshop: Intro to NLP 3: Applications with Cohere</Text>
+                                    <Text>Workshop: Intro to NLP 2: Applications with Cohere</Text>
                                 </GridItem>
                                 <GridItem>
                                     <Text>2:00 PM - 3:00 PM (BA 1230)</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>Workshop: Building a Reinforcement Learning Model</Text>
+                                    <Text>Workshop: Art X ML</Text>
+                                </GridItem>
+                                <GridItem>
+                                    <Text>4:00 PM - 5:00 PM</Text>
+                                </GridItem>
+                                <GridItem>
+                                    <Text>Workshop: Intro to Hugging Face</Text>
+                                </GridItem>
+                                <GridItem>
+                                    <Text>5:00 PM - 6:00 PM</Text>
+                                </GridItem>
+                                <GridItem>
+                                    <Text>Workshop: PyTorch &amp; TensorFlow</Text>
                                 </GridItem>
                             </Grid>
                         </Box>                                                                                                                     
@@ -79,31 +91,25 @@ const Schedule = () => {
                         <Box display='flex' flexDirection='column' alignItems='left' gap='30px'>
                             <Grid templateColumns='repeat(2, 1fr)' gap={6}>
                                 <GridItem>
-                                    <Text>12:00 PM - 1:00 PM (Bahen Atrium)</Text>
-                                </GridItem>
-                                <GridItem>
-                                    <Text>Lunch</Text>
-                                </GridItem>
-                                <GridItem>
-                                    <Text>2:00 PM - 3:00 PM (BA 1170)</Text>
-                                </GridItem>
-                                <GridItem>
-                                    <Text>Machine Learning Career Panel</Text>
-                                </GridItem>
-                                <GridItem>
-                                    <Text>4:00 PM</Text>
+                                    <Text>1:00 AM</Text>
                                 </GridItem>
                                 <GridItem>
                                     <Text>Hacking Ends!</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>4:30 PM - 5:30 PM (Bahen Atrium)</Text>
+                                    <Text>10:30 AM</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>Presentations & Networking</Text>
+                                    <Text>Presentations</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>5:30 PM - 6:15 PM (BA 1130)</Text>
+                                    <Text>11:30 AM</Text>
+                                </GridItem>
+                                <GridItem>
+                                    <Text>Judging + Machine Learning Career Panel</Text>
+                                </GridItem>
+                                <GridItem>
+                                    <Text>12:30 PM - 1:30 PM</Text>
                                 </GridItem>
                                 <GridItem>
                                     <Text>Closing Ceremony</Text>
