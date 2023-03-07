@@ -55,31 +55,31 @@ const Schedule = () => {
                                     <Text>12:00 PM - 1:00 PM (BA 1200)</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>Workshop: Intro to NLP 1: Data Cleaning & Jupyter Hub</Text>
+                                    <Text>Workshop: Intro to Hugging Face + Flask</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>1:00 PM - 2:00 PM (BA 1200)</Text>
+                                    <Text>1:00 PM - 2:00 PM (BA 1170)</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>Workshop: Intro to NLP 2: Applications with Cohere</Text>
+                                    <Text>Workshop: Art-ificial Intelligence - Blending Images with Neural Style Transfer</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>2:00 PM - 3:00 PM (BA 1230)</Text>
+                                    <Text>2:00 PM - 3:00 PM (BA 1170)</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>Workshop: Art X ML</Text>
+                                    <Text>Workshop: Intro to TensorFlow + PyTorch</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>4:00 PM - 5:00 PM</Text>
+                                    <Text>3:00 PM - 4:00 PM (BA 1170)</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>Workshop: Intro to Hugging Face</Text>
+                                    <Text>Workshop: NLP 1: Gettin' and Cleanin' your Data!</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>5:00 PM - 6:00 PM</Text>
+                                    <Text>5:00 PM - 6:00 PM (BA 1210)</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>Workshop: PyTorch &amp; TensorFlow</Text>
+                                    <Text>Workshop: NLP 2: Applications with Co:here</Text>
                                 </GridItem>
                             </Grid>
                         </Box>                                                                                                                     
@@ -109,7 +109,7 @@ const Schedule = () => {
                                     <Text>Judging + Machine Learning Career Panel</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>12:30 PM - 1:30 PM</Text>
+                                    <Text>1:00 PM - 2:00 PM</Text>
                                 </GridItem>
                                 <GridItem>
                                     <Text>Closing Ceremony</Text>
