@@ -1,6 +1,6 @@
 import React from 'react';
-import { Container, Stack, Heading, Text, Link, Box, Image } from '@chakra-ui/react';
-
+import { Grid, GridItem, Container, Stack, Heading, Text, Link, Box, Image } from '@chakra-ui/react';
+import postman from '../img/postman.svg';
 import redBlob from '../img/red_blob.svg';
 const Sponsors = () => {
     return (
@@ -16,9 +16,14 @@ const Sponsors = () => {
                 <Text align='center' >Interested in sponsoring us? Get in touch with our team at&nbsp;
                     <Link textDecor={'underline'} href="mailto:sponsor@utmist.org">
                         sponsor@utmist.org
-                    </Link>.
+                    </Link>
                 </Text>
-                   
+                {/*<Grid templateColumns='repeat(4, 1fr)' gap={0}>
+                    <GridItem>
+                        <a href="https://www.postman.com/" target="_blank"><Image src={postman} style={{}}/></a>
+                    </GridItem>
+                </Grid>
+                */}
             </Stack>
         </Container>
     );
