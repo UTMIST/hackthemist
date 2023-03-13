@@ -97,7 +97,7 @@ const Schedule = () => {
                                     <Text>Presentations to Judges</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>11:30 AM (SS2108)</Text>
+                                    <Text>11:30 AM (SS 2108)</Text>
                                 </GridItem>
                                 <GridItem>
                                     <Text>Judging + Machine Learning Career Panel</Text>
