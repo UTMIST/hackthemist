@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, GridItem, Container, Stack, Heading, Text, Link, Box, Image } from '@chakra-ui/react';
-import postman from '../img/postman.svg';
+{/*import postman from '../img/postman.svg'*/};
 import redBlob from '../img/red_blob.svg';
 const Sponsors = () => {
     return (
