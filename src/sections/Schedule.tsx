@@ -46,12 +46,6 @@ const Schedule = () => {
                                     <Text>Hacking Begins!</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>11:30 AM (Bahen Atrium)</Text>
-                                </GridItem>
-                                <GridItem>
-                                    <Text>Lunch</Text>
-                                </GridItem>
-                                <GridItem>
                                     <Text>12:00 PM - 1:00 PM (BA 1200)</Text>
                                 </GridItem>
                                 <GridItem>
@@ -70,13 +64,13 @@ const Schedule = () => {
                                     <Text>Workshop: Intro to TensorFlow + PyTorch</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>3:00 PM - 4:00 PM (BA 1170)</Text>
+                                    <Text>4:00 PM - 5:00 PM (BA 1170)</Text>
                                 </GridItem>
                                 <GridItem>
                                     <Text>Workshop: NLP 1: Gettin' and Cleanin' your Data!</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>5:00 PM - 6:00 PM (BA 1210)</Text>
+                                    <Text>5:00 PM - 6:00 PM (BA 1170)</Text>
                                 </GridItem>
                                 <GridItem>
                                     <Text>Workshop: NLP 2: Applications with Co:here</Text>
@@ -100,10 +94,10 @@ const Schedule = () => {
                                     <Text>10:30 AM</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>Presentations</Text>
+                                    <Text>Presentations to Judges</Text>
                                 </GridItem>
                                 <GridItem>
-                                    <Text>11:30 AM</Text>
+                                    <Text>11:30 AM (SS 2108)</Text>
                                 </GridItem>
                                 <GridItem>
                                     <Text>Judging + Machine Learning Career Panel</Text>
