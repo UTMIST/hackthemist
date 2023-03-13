@@ -20,7 +20,7 @@ const Sponsors = () => {
                 </Text>
                 <Grid templateColumns='repeat(4, 1fr)' gap={0}>
                     <GridItem>
-                        <a href="https://www.postman.com/" target="_blank"><Image src={postman}/></a>
+                        <a href="https://www.postman.com/" target="_blank" rel="noreferrer"><Image src={postman}/></a>
                     </GridItem>
                 </Grid>
                 
